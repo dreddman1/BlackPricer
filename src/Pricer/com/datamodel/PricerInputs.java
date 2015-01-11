@@ -20,24 +20,24 @@ public class PricerInputs {
         theVolaTimeToExpiry = aVolaTimeToExpiry;
     }
 
-    double getTheStrike() {
+    public double getStrike() {
         return theStrike;
     }
 
     @NotNull
-    OptionKind getTheOptionKind() {
+    public OptionKind getOptionKind() {
         return theOptionKind;
     }
 
-    double getTheForward() {
+    public double getForward() {
         return theForward;
     }
 
-    double getTheVolatility() {
+    public double getVolatility() {
         return theVolatility;
     }
 
-    double getTheVolaTimeToExpiry() {
+    public double getVolaTimeToExpiry() {
         return theVolaTimeToExpiry;
     }
 }

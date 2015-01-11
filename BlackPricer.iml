@@ -9,6 +9,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="annotations" level="project" />
+    <orderEntry type="library" name="org.apache.commons:commons-math3:3.2" level="project" />
   </component>
 </module>
 

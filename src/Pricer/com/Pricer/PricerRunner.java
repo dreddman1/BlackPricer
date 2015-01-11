@@ -14,7 +14,7 @@ public class PricerRunner {
 
     public static void main(String[] args) {
 
-        PricerCore myPricer = new PricerCore();
+        PricerCore myPricer = new PricerCore(new DOneCalculator(), new DTwoCalculator());
 
         PricerInputs myPricerInputs = new PricerInputs(STRIKE, OPTION_KIND, FORWARD, VOLATILITY, VOLA_TIME_TO_EXPIRY);
 
