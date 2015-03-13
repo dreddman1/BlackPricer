@@ -12,8 +12,8 @@ class CallPriceCalculator {
         theNormalDistribution = aNormalDistribution;
     }
 
-    double calculate(double aForward, double aStrike, double aDOne, double aDTwo) {
-        return (aForward * theNormalDistribution.cumulativeProbability(aDOne) -
+    double calculate(double aForward, double aStrike, double aDOne, double aDTwo, double myDiscountFactor) {
+        return myDiscountFactor * (aForward * theNormalDistribution.cumulativeProbability(aDOne) -
                 aStrike * theNormalDistribution.cumulativeProbability(aDTwo));
     }
 

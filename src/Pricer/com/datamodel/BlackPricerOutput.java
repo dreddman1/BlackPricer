@@ -1,14 +1,14 @@
 package Pricer.com.datamodel;
 
-public class PricerOutput {
+public class BlackPricerOutput {
 
     private final double thePrice;
 
-    public PricerOutput(double aPrice){
+    public BlackPricerOutput(double aPrice){
       thePrice = aPrice;
     }
 
-    public double getThePrice() {
+    public double getPrice() {
         return thePrice;
     }
 }

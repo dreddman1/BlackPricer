@@ -3,10 +3,8 @@ import org.jetbrains.annotations.NotNull;
 
 public class PricerOutputFactory {
 
-    public PricerOutputFactory(){}
-
     @NotNull
-    public PricerOutput create(double myPrice) {
-        return new PricerOutput(myPrice);
+    public BlackPricerOutput create(double myPrice) {
+        return new BlackPricerOutput(myPrice);
     }
 }

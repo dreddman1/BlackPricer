@@ -1,8 +1,7 @@
 package Pricer.com.datamodel;
-
 import org.jetbrains.annotations.NotNull;
 
-public class PricerInputs {
+public class BlackPricerInputs {
 
     private final double theStrike;
     @NotNull
@@ -12,8 +11,8 @@ public class PricerInputs {
     private final double theVolaTimeToExpiry;
     private final double theInterestRate;
 
-    public PricerInputs(double aStrike, @NotNull OptionKind aOptionKind, double aForward, double aVolatility,
-                        double aVolaTimeToExpiry, double aInterestRate) {
+    public BlackPricerInputs(double aStrike, @NotNull OptionKind aOptionKind, double aForward, double aVolatility,
+                             double aVolaTimeToExpiry, double aInterestRate) {
         theStrike = aStrike;
         theOptionKind = aOptionKind;
         theForward = aForward;
