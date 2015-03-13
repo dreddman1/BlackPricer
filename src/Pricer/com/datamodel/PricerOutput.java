@@ -4,11 +4,11 @@ public class PricerOutput {
 
     private final double thePrice;
 
-    PricerOutput(double aPrice){
+    public PricerOutput(double aPrice){
       thePrice = aPrice;
     }
 
-    double getThePrice() {
+    public double getThePrice() {
         return thePrice;
     }
 }
