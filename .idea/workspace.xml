@@ -4,8 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/Pricer/com/Pricer/PricerRunner.java" line="14" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b060c0a-b0b8-40d0-8bbd-77fbdc4422de" name="Default" comment="Minor format change.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pricer/com/datamodel/PricerOutput.java" afterPath="$PROJECT_DIR$/src/Pricer/com/datamodel/PricerOutput.java" />
+    <list default="true" id="9b060c0a-b0b8-40d0-8bbd-77fbdc4422de" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pricer/com/Pricer/PricerCore.java" afterPath="$PROJECT_DIR$/src/Pricer/com/Pricer/PricerCore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pricer/com/datamodel/PricerInputs.java" afterPath="$PROJECT_DIR$/src/Pricer/com/datamodel/PricerInputs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BlackPricer.iws" />
@@ -39,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PricerOutput.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PricerOutput.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pricer/com/datamodel/PricerOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17763846" vertical-offset="0" max-vertical-offset="957">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
@@ -54,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PricerCore.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PricerCore.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pricer/com/Pricer/PricerCore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.56844306" vertical-offset="0" max-vertical-offset="957">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -87,9 +88,12 @@
       <file leaf-file-name="PricerInputs.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pricer/com/datamodel/PricerInputs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+              <folding>
+                <element signature="e#1196#1197#0" expanded="true" />
+                <element signature="e#1234#1235#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,12 +124,12 @@
         <option value="$PROJECT_DIR$/src/Pricer/com/dread/pricerRunner.java" />
         <option value="$PROJECT_DIR$/src/Pricer/com/dread/PricerRunner.java" />
         <option value="$PROJECT_DIR$/src/Pricer/com/datamodel/OptionKind.java" />
-        <option value="$PROJECT_DIR$/src/Pricer/com/datamodel/PricerInputs.java" />
         <option value="$PROJECT_DIR$/src/Pricer/com/Pricer/D1Calculator.java" />
         <option value="$PROJECT_DIR$/src/Pricer/com/Pricer/DTwoCalculator.java" />
         <option value="$PROJECT_DIR$/src/Pricer/com/Pricer/PricerRunner.java" />
-        <option value="$PROJECT_DIR$/src/Pricer/com/Pricer/PricerCore.java" />
         <option value="$PROJECT_DIR$/src/Pricer/com/datamodel/PricerOutput.java" />
+        <option value="$PROJECT_DIR$/src/Pricer/com/datamodel/PricerInputs.java" />
+        <option value="$PROJECT_DIR$/src/Pricer/com/Pricer/PricerCore.java" />
       </list>
     </option>
   </component>
@@ -158,6 +162,9 @@
             <id>Data flow issues</id>
           </State>
           <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
             <id>Groovy</id>
           </State>
           <State>
@@ -166,7 +173,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>ConstantConditions</id>
+            <id>UNUSED_SYMBOL</id>
           </State>
         </selected-state>
       </profile-state>
@@ -489,7 +496,11 @@
       <created>1420976795073</created>
       <updated>1420976795073</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Minor format change.">
+      <created>1426252103227</created>
+      <updated>1426252103227</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -570,7 +581,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="833">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -602,7 +616,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="833">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -694,34 +711,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pricer/com/datamodel/PricerInputs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pricer/com/Pricer/DTwoCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pricer/com/Pricer/DOneCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pricer/com/Pricer/PricerCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -736,7 +729,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pricer/com/datamodel/PricerOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17763846" vertical-offset="0" max-vertical-offset="957">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding>
             <element signature="e#127#128#0" expanded="true" />
@@ -744,6 +737,33 @@
             <element signature="e#186#187#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pricer/com/datamodel/PricerInputs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding>
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pricer/com/Pricer/DTwoCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pricer/com/Pricer/PricerCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56844306" vertical-offset="0" max-vertical-offset="957">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -10,14 +10,16 @@ public class PricerInputs {
     private final double theForward;
     private final double theVolatility;
     private final double theVolaTimeToExpiry;
+    private final double theInterestRate;
 
     public PricerInputs(double aStrike, @NotNull OptionKind aOptionKind, double aForward, double aVolatility,
-                        double aVolaTimeToExpiry) {
+                        double aVolaTimeToExpiry, double aInterestRate) {
         theStrike = aStrike;
         theOptionKind = aOptionKind;
         theForward = aForward;
         theVolatility = aVolatility;
         theVolaTimeToExpiry = aVolaTimeToExpiry;
+        theInterestRate = aInterestRate;
     }
 
     public double getStrike() {
@@ -39,5 +41,9 @@ public class PricerInputs {
 
     public double getVolaTimeToExpiry() {
         return theVolaTimeToExpiry;
+    }
+
+    public double getTheInterestRate() {
+        return theInterestRate;
     }
 }
